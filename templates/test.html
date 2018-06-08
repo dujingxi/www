@@ -1,0 +1,15 @@
+<html>
+
+<body>
+    <h1>this is test page</h1>
+    <p>user: {{ form.username }}</p>
+    <p>pass: {{ form.password }}</p>
+    <a href="{% url 'index' %}">__index__
+    </a>
+    <form action="/logout/" method="post">
+        <input type="submit" value='logout'>
+    </form>
+    <div>{{ ss }}</div>
+</body>
+
+</html>
